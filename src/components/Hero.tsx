@@ -15,7 +15,7 @@ export const Hero = () => {
   const scale = useTransform(scrollYProgress, [0, 0.5], [1, 1.2]);
 
   return (
-    <section ref={containerRef} className="relative min-h-[120vh] flex items-center justify-center overflow-hidden pt-20">
+    <section ref={containerRef} className="relative min-h-[120vh] flex items-center justify-center overflow-hidden pt-[9rem]">
       {/* Animated Mesh Background */}
       <div className="absolute inset-0 mesh-gradient" />
       
